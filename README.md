@@ -1,29 +1,34 @@
-### Hi, I'm Mirko 👋
+# Mirko Siddi — Forward Deployed Engineer | AI Solutions
 
-**Forward Deployed / Applied AI Engineer** · TypeScript · Python · LLM integrations  
-Remote · [Portfolio](https://mirkosiddi.netlify.app) · [LinkedIn](https://linkedin.com/in/mirkosiddi)
+[Portfolio](https://mirkosiddi.netlify.app)
 
-I turn operational processes into software people actually use: I work with the people who run the process, map the workflow, define the scope, then build, ship and support it. Before moving into software in 2020 I spent 17 years in enterprise infrastructure (banking, telecom).
+I work with teams to understand how they operate, find where AI and automation can help, and take solutions from discovery to production. My background spans enterprise infrastructure, full-stack delivery and applied AI.
 
-#### What I've been building
+## Selected work
 
-- **AI-assisted delivery:** a Claude Code + Jira + GitHub + Slack workflow adopted by my team. My completed tickets went from 24.4 to 57.7 per month, with human peer review still mandatory.
-- **AI transcription & translation** for market-research interviews: speaker diarization, glossary corrections, chunking and error recovery for long recordings.
-- **Business automations** with self-hosted n8n: invoice collection, accounting integration, quote preparation.
-- **Payments & finance workflows** for a hospitality platform: credit notes, re-invoicing, idempotent ledgers.
+### Edilcos — Quote request intake and routing
+**Problem:** quote requests came in by email and WhatsApp, and the work was spread across people, folders and Excel sheets. It was hard to see who owned a request and by when.
 
-#### Selected repositories
+**What I did:** I built a workflow that captures quote requests from email and WhatsApp, uses AI to classify them, routes them to the team in Microsoft Teams, and logs them in Excel. The team prepares the quotes.
 
-| Project | What it shows |
-|---|---|
-| [process-audio-api](https://github.com/mirko1075/process-audio-api) | Transcription & translation API: Deepgram, Whisper, AssemblyAI, speaker diarization, chunking for long files, JWT + API keys, Docker |
-| [jira-editor](https://github.com/mirko1075/jira-editor) | Text-first backlog tool with AI-assisted writing and Jira sync (Vue 3, Fastify, Zod) |
-| [ai-dev-toolkit](https://github.com/mirko1075/ai-dev-toolkit) | Reusable Claude Code / Copilot setup: skills, agents, hooks, per-stack templates |
-| [code-analysis-context-java-spring-mcp](https://github.com/mirko1075/code-analysis-context-java-spring-mcp) | MCP server that gives LLMs architectural context on Spring codebases, with 100+ tests |
-| [dbpower-ai-cloud](https://github.com/mirko1075/dbpower-ai-cloud) | Slow-query collection and analysis for MySQL/PostgreSQL with a React dashboard |
+**Status:** client project delivered. [Case study](https://mirkosiddi.com/en/projects/edilcos/)
 
-#### Stack
+### MyComp / Smartness — AI-assisted engineering workflow
+**Problem:** use AI agents in development without losing control: some choices and approvals belong to people.
 
-TypeScript · Node (Fastify, NestJS) · Vue · React · Angular · Python (FastAPI, Flask) · PostgreSQL · MySQL · MongoDB · Docker · GitHub Actions · AWS · n8n · OpenAI · Claude · MCP
+**What I did:** designed the workflow from Jira ticket to pull request with Claude Code, wrote the shared instructions, and defined when the agent asks on Slack or waits for approval. An AI pre-review runs first; peer review stays mandatory.
 
-Open to Forward Deployed, AI Solutions and Applied AI Engineer roles (remote).
+**Status:** adopted by the team since June 2026. [Case study](https://mirkosiddi.com/en/projects/ai-delivery/)
+
+### AI transcription & translation — applied AI for market research
+**Problem:** turn hours of multilingual interview recordings into readable text: who speaks, what they say, with the right terms.
+
+**What I did:** built the app end to end: upload and review UI, asynchronous processing, speaker separation, translation with glossaries, and error recovery for long files (FastAPI, React, OpenAI).
+
+**Status:** used for market research interviews in 2024–2025. [Case study](https://mirkosiddi.com/en/projects/ai-transcription/)
+
+## Background
+
+Before software (2020) I spent 17 years in enterprise infrastructure and data centers for banks and telecoms.
+
+[LinkedIn](https://www.linkedin.com/in/mirkosiddi)
